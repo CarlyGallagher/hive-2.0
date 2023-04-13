@@ -2,19 +2,19 @@ const { Post } = require('../models');
 
 const postData = [
   {
-    title: 'ORM Mapping',
-    content: 'I have really loved learning about ORM.',
+    title: 'posting is fun',
+    content: 'This is a fun post about cars.',
     user_id: 1
     
   },
   {
-    title: 'Why MVC is import',
-    content: 'MVC allows developers to maintain true separation of concerns.',
+    title: 'my favorite workout',
+    content: 'How to do bulgarian split squats.',
     user_id: 2
   },
   {
-    title: 'Authentication vs. Authorization',
-    content: 'The is a difference where authentication is confirming your own identity whereas authorization means being allowed access to system.',
+    title: 'The Last of us video game vs show',
+    content: 'there were many differences between the two but all in all a good story',
     user_id: 3
   }
 ];
