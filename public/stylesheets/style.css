@@ -29,7 +29,7 @@ h1{
 	justify-content: center;
 	line-height: 20px;
 	letter-spacing: 4px;
-	margin: 70px;
+	margin: 10px;
 	
 }
 
@@ -187,7 +187,7 @@ h1{
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color:#ffd00079;
+	background-color:#ffd0009e;
 	overflow-x: hidden;
 	padding-top: 16px;
 	padding-left: 15px;
@@ -202,6 +202,10 @@ h1{
 	color: #110617;
 	display: block;
 	background-color: transparent;
+  }
+
+  .slider1 {
+	background-color: #ffd000;
   }
 
   h3{
@@ -234,8 +238,9 @@ h1{
 	position:absolute;
 	height:100%;
 	width:100%;
-	margin-left: -170px;
+	margin-left: 770px;
 	margin-top: 10px;
+	margin-top: 800px;
   }
   
   .gallery:after{
@@ -375,4 +380,64 @@ h1{
 
   i {
     background-color: transparent;
+  }
+
+  .login  {
+	background-color: transparent;
+	border-radius: 7px;
+	border-color: #ffd000c3;
+  }
+
+  .login-link {
+	background-color: transparent;
+  }
+
+  .pro-pic {
+	border-radius: 70%;
+	height: 120px;
+	border: 5px double;
+  }
+
+  p {
+
+margin: 20px;
+padding-right: 20px;
+color: #000;
+  }
+
+  #new-post {
+	border-radius: 10px;
+	text-decoration: none;
+	color: #000;
+	margin-left: 5000px;
+	top: 100px;
+
+  }
+
+  .create {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+	background-color: #ffd100;
+	cursor: pointer;
+
+  }
+
+  .top-post {
+	top: 0;
+	display: inline-block;
+  }
+
+  #username-pro {
+	text-align: center;
+	margin-right: 20px;
+	background-color: transparent;
+  }
+
+  .edit {
+	align-content: center;
+	margin-left: 15px;
+	background-color: #ffd000;
+	border-radius: 10px;
   }
