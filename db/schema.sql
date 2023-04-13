@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS tech_blog;
+DROP DATABASE IF EXISTS honey_media;
 
-CREATE DATABASE tech_blog;
+CREATE DATABASE honey_media;
