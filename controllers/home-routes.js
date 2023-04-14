@@ -54,6 +54,10 @@ router.get('/signup', (req, res) => {
     res.render('signup');
 });
 
+router.get("/dashboard", async (req, res) => {
+  // Send the rendered Handlebars.js template back as the response
+  res.render("dashboard");
+});
 //rendering one post to the single-post page
 router.get('/post/:id', (req, res) => {
     Post.findOne({
