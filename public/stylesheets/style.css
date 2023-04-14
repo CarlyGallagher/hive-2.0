@@ -238,9 +238,8 @@ h1{
 	position:absolute;
 	height:100%;
 	width:100%;
-	margin-left: 770px;
-	margin-top: 10px;
-	margin-top: 800px;
+	margin-left:-250px;
+	margin-top: 50px;
   }
   
   .gallery:after{
