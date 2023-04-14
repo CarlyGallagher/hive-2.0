@@ -234,6 +234,7 @@ h1{
  
   .gallery{
 	justify-content: center;
+	display: flex;
 	align-items: center;
 	position:absolute;
 	height:100%;
@@ -241,11 +242,15 @@ h1{
 	margin-left:-250px;
 	margin-top: 50px;
   }
-  
+
+.post {
+	margin: 25%;
+  }  
   .gallery:after{
 	content:'';
   }
   
+
   
   img{
 	width:var(--width);

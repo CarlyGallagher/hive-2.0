@@ -16,6 +16,16 @@ const postData = [
     title: 'The Last of us video game vs show',
     content: 'there were many differences between the two but all in all a good story',
     user_id: 3
+  },
+  {
+    title: 'I love Pedro Pascal',
+    content: 'Pedro is the hottest',
+    user_id: 3
+  },
+  {
+    title: 'Coffee vs tea',
+    content: 'Coffee absolutley',
+    user_id: 2
   }
 ];
 
